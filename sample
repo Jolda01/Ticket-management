@@ -1,0 +1,3 @@
+MONGO_URl=mongodb://localhost/crm_ticket
+JWT_ACCESS_SECRET=dzjgnzefgbsgngbnhjjhjkbfcve
+JWT_ACCESS_SECRET=ds65da4gr6azgr65ed4rb

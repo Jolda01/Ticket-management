@@ -1,0 +1,28 @@
+POST http://localhost:3001/v1/ticket
+Content-Type: application/json
+
+{
+    "clientId": "60efb72d4f9a0c001c6f11f4",
+    "subject": "Issue with payment",
+    "conversations": [
+        {
+            "sender": "User",
+            "message": "I'm facing an issue with payment."
+        }
+    ]
+}
+
+
+# Get Ticket by ID
+GET http://localhost:3001/v1/ticket/:id
+
+# Update Ticket
+PATCH http://localhost:3001/v1/ticket/:id
+Content-Type: application/json
+
+{
+    "status": "Resolved"
+}
+
+# Delete Ticket
+DELETE http://localhost:3001/v1/ticket/:id
